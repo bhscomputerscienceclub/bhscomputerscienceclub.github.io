@@ -6,12 +6,13 @@ description: Official portfolio
 url: beachwood-high-school.github.io
 # User settings
 username: Beachwood High School Computer Science Club
-user_description: This site is in progress. Anything on here is not guaranteed to be accurate just yet.
+user_description: This site is in progress. Anything on here is not guaranteed to be accurate just yet. <br> We are Beachwood High School's only Computer Science Club.
 user_title: We do computer things
 email: 23kmalhotra@beachwoodstudents.org
 # twitter_username: lorem_ipsum
 github_username: beachwood-high-school
 # gplus_username:  lorem_ipsum
+closing: Built with Jekyll and a theme by <a href="https://github.com/murraco">Mauricio Urraco</a> and this instance coded by BHSCS students
 
 # Google-analytics
 google-analytics:
