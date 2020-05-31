@@ -16,5 +16,7 @@ github_username: beachwood-high-school
 # Google-analytics
 google-analytics:
   id: ""
+sass:
+  sass_dir: assets/_sass
 
 exclude: ["package.json", "src", "node_modules"]

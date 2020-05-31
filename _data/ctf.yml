@@ -1,0 +1,8 @@
+- name: "Pekoe CTF"
+  rank: 1
+  total: 40
+  yearend: 2020
+- name: "PicoCTF"
+  rank: 500
+  total: 5000
+  yearend: 2019
