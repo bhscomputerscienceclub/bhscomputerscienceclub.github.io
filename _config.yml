@@ -5,9 +5,9 @@ description: Official portfolio
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 url: beachwood-high-school.github.io
 # User settings
-username: idk
-user_description: will be user desc
-user_title: School thing
+username: Beachwood High School Computer Science Club
+user_description: This site is in progress. Anything on here is not guaranteed to be accurate just yet.
+user_title: We do computer things
 email: 23kmalhotra@beachwoodstudents.org
 # twitter_username: lorem_ipsum
 github_username: beachwood-high-school
