@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /ctf
+permalink: /ctfs
 ---
 
 # CTFs we have participated in
@@ -13,3 +13,7 @@ permalink: /ctf
       </li>
       {% endfor %}
     </ol>
+
+
+
+this page will look better soon
