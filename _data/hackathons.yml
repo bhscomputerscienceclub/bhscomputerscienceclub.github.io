@@ -1,0 +1,21 @@
+- name: "Hyland"
+  rank: false
+  total:
+  yearend: 2020
+  projecturl: https://github.com/beachwood-high-school/Hyland2020
+  projectname: EZWeather
+  location: NE OH
+- name: "UHacks"
+  rank: false
+  total:
+  yearend: 2019
+  projecturl: https://github.com/Beachwood-High-School/uhacks2019
+  projectname: Credipedia
+  location: NE OH
+- name: "UHacks"
+  rank: false
+  total:
+  yearend: 2019
+  projecturl: 
+  projectname: Automatic Scheduler
+  location: NE OH
