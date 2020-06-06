@@ -1,3 +1,13 @@
+- name: "HSCTF"
+  rank: 98
+  total: 1466
+  yearend: 2020
+  teamname: "BisonHackers"
+- name: "HSCTF"
+  rank: 204
+  total: 1466
+  yearend: 2020
+  teamname: "Yes no maybe"
 - name: "Pekoe CTF"
   rank: 1
   total: 40
