@@ -7,11 +7,22 @@
     <h2>Recent CTFs</h2>
     <ol>
       {% for item in site.data.ctf limit: 5%}
+      {% capture teamname%}
+      {% if item.teamname %}
+      (Team {{item.teamname}})
+      {% endif %}
+      {% endcapture %}
       <li>
-        {{ item.name }} - Rank {{ item.rank }} - Percentile {{ item.rank | times:100 | divided_by: item.total }}%
+        {{ item.name }}{{teamname}}
+        - Rank
+        {{ item.rank }}
+        - Percentile
+        {{ item.rank | times:100 | divided_by: item.total }}%
       </li>
       {% endfor %}
-      <li><a href="/ctfs">See more</a></li>
+      <li>
+        <a href="/ctfs">See more</a>
+      </li>
     </ol>
 
   </div>
@@ -19,15 +30,36 @@
     <h2>Recent Hackathons</h2>
     <ol>
       {% for item in site.data.hackathons limit: 5%}
+
+      {% capture projectname %}
+      {% if item.projecturl != false %}
+      <a href="{{item.projecturl}}">{{ item.projectname }}</a>
+      {% else %}
+      {{item.projectname}}
+      {% endif %}
+      {% endcapture %}
+
+      {%capture rank%}
+      {% if item.rank %}
+      - Rank
+      {{item.rank}}
+      - Percentile
+      {{ item.rank | times:100 | divided_by: item.total }}%
+      {% endif %}
+      {%endcapture%}
       <li>
-        {{ item.name }}{% if item.rank %} - Rank {{item.rank}}  - Percentile {{ item.rank | times:100 | divided_by: item.total }}%{% endif %} - Our project <a href="{{item.projecturl}}">{{ item.projectname }}</a>
+        {{ item.name }}
+        {{ rank }}
+        - Our project {{projectname}}
       </li>
       {% endfor %}
-      <li><a href="/hackathons">See more</a></li>
+      <li>
+        <a href="/hackathons">See more</a>
+      </li>
     </ol>
- </div>
+  </div>
   <div class="tech">
-    <h2>Future</h2>
+    <h2>Other Projects</h2>
 
     <p>Don't know what to put here right now</p>
   </div>
