@@ -8,7 +8,7 @@ body {
     perspective-origin: center center;
     width: 200px;
     height: 320px;
-    position: absolute;
+    position: relative;
     top: 50px;
     left: 50px;
   }
@@ -147,26 +147,7 @@ body {
     background: #e74c3c;
   }
 
-  h1 {
-    font-size: 8em;
-    font-family: "Lobster Two";
-    font-style: italic;
-    text-align: right;
-    line-height: 0.3;
-    display: table;
-    position: absolute;
-    top: 60px;
-    right: 30px;
-    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
-    color: #ecf0f1;
-  }
-
-  h1 small {
-    font-size: 0.2em;
-  }
-  min-width: 800px;
-  display: block;
-  position: relative;
+ 
 }
 
 .wrapcube {
@@ -311,22 +292,4 @@ body {
 }
 #g .front {
   background: #e74c3c;
-}
-
-h1 {
-  font-size: 8em;
-  font-family: "Lobster Two";
-  font-style: italic;
-  text-align: right;
-  line-height: 0.3;
-  display: table;
-  position: absolute;
-  top: 60px;
-  right: 30px;
-  text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
-  color: #ecf0f1;
-}
-
-h1 small {
-  font-size: 0.2em;
 }
