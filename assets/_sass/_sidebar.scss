@@ -1,22 +1,11 @@
 /* The sidebar menu */
 .sidebar {
-  height: 98%; /* Full-height: remove this if you want "auto" height */
-  min-width: fit-content;
-  max-width: $sidebar-width;
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  right: 0;
-  background-color: whitesmoke;
-  //   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  padding-bottom: 20px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   align-content: center;
-
   /* The navigation menu links */
   // a {
   //   padding: 6px 8px 6px 16px;
@@ -189,15 +178,10 @@
 /* Style page content */
 main {
   display: block;
-  min-height: 96vh;
 
   background-color: whitesmoke;
-  margin: 1vmax;
 
-  margin-right: calc(
-    #{$sidebar-width} + 20px
-  ); /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  padding: 10px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -207,5 +191,42 @@ main {
   }
   .sidebar a {
     font-size: 18px;
+  }
+  .sidebar {
+    display: inline;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sidebar {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    footer {
+      display: none;
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+  .sidebar {
+    height: 98%; /* Full-height: remove this if you want "auto" height */
+    min-width: fit-content;
+    max-width: $sidebar-width;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: whitesmoke;
+    //   overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+  }
+  main {
+    margin: 1vmax;
+    min-height: 96vh;
+
+    margin-right: calc(
+      #{$sidebar-width} + 20px
+    ); /* Same as the width of the sidebar */
   }
 }
