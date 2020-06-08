@@ -93,11 +93,17 @@
       height: 100%;
       position: absolute;
       backface: hidden;
+      a{
+        display: inline-block;
+        height:100%;
+        width: 100%;
+      }
     }
 
     .front {
       height: 50px;
       transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(100px);
+
     }
     .left {
       height: 50px;
