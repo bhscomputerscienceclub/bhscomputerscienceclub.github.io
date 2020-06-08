@@ -12,6 +12,12 @@
   rank: 1
   total: 40
   yearend: 2020
+  teamname: "BisonHackers"
+- name: "Pekoe CTF"
+  rank: 2
+  total: 40
+  yearend: 2020
+  teamname: "TheManTheMythTheLegendScottSterling"
 - name: "PicoCTF"
   rank: 121
   total: 5141
