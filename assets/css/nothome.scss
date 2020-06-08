@@ -2,7 +2,10 @@
 #thing
 ---
 
-@import "vars";
+@import "lib/normalize";
+@import "lib/fontawesome";
+@import "lib/devicon";
+@import 'vars';
 
-@import "_nav";
-@import "_sidebar";
+@import 'base';
+@import "sidebar";
