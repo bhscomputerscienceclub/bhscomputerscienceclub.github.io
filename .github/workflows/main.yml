@@ -1,11 +1,13 @@
 name: JekyllPublish
 
 on:
-  push
+  push:
+    branches: 
+      - code-master
     
 jobs:
   jekyll:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
 
@@ -18,7 +20,7 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Standard usage
-    - uses:  helaili/jekyll-action@2.0.1
+    - uses:  helaili/jekyll-action@2.0.3
       env:
         JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
     
