@@ -17,7 +17,7 @@
         - Rank
         {{ item.rank }}
         - Percentile
-        {{ item.rank | times:100 | divided_by: item.total }}%
+        {{ item.rank|minus: 1 | times:-100 | divided_by: item.total | plus: 100}}%
       </li>
       {% endfor %}
       <li>
@@ -29,7 +29,7 @@
   <div class="tech">
     <h2>Recent Hackathons</h2>
     <ol>
-      {% for item in site.data.hackathons limit: 5%}
+      {% for item in site.data.hackathon limit: 5%}
 
       {% capture projectname %}
       {% if item.projecturl != false %}
@@ -44,7 +44,7 @@
       - Rank
       {{item.rank}}
       - Percentile
-      {{ item.rank | times:-100 | divided_by: item.total |plus: 100 }}%
+      {{ item.rank|minus: 1 | times:-100 | divided_by: item.total |plus: 100 }}%
       {% endif %}
       {%endcapture%}
       <li>
