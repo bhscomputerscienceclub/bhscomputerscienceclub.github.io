@@ -27,7 +27,7 @@ permalink: /ctfs
                 <td>{{ item.name }}</td>
                 <td>{{item.rank}}</td>
                 <td>
-                    {{ item.rank | times:100 | divided_by: item.total }}%
+                    {{ item.rank | times:-100 | divided_by: item.total | plus: 100}}%
                 </td>
                 <td>{{item.teamname}}</td>
                 </tr>
