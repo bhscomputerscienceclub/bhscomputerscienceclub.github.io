@@ -22,7 +22,7 @@ title: CTFs we have participated in
             <th>Rank</th>
             <th>Percentile</th>
             <th>Team Name</th>
-        </tr>
+        </tr>for possible later reuse (or you can then git stash drop it). 
     </thead>
     <tbody>
             {% for item in site.data.ctf limit: 1000%}        <tr>
