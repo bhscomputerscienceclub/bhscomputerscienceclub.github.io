@@ -44,7 +44,7 @@
       - Rank
       {{item.rank}}
       - Percentile
-      {{ item.rank | times:100 | divided_by: item.total }}%
+      {{ item.rank | times:-100 | divided_by: item.total |plus: 100 }}%
       {% endif %}
       {%endcapture%}
       <li>
