@@ -46,5 +46,5 @@ title: CTFs we have participated in
     </tbody>
 </table>
 
-~~this page will look better soon~~
+~~this page will look better soon~~  
 this page will look nicer later
