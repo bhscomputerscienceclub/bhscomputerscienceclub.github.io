@@ -24,3 +24,4 @@ exclude: ["package.json", "src", "node_modules"]
 
 picture:
   nomarkdown: false
+exclude: ["package.json", "src", "node_modules", "vendor/bundle"]
