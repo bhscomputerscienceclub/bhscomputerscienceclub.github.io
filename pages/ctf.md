@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /ctfs
+permalink: /ctfs/
 title: CTFs we have participated in
 ---
 

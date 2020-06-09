@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /hackathons
+permalink: /hackathons/
 title: Hackathons we have participated in
 
 ---
