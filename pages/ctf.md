@@ -13,7 +13,6 @@ title: CTFs we have participated in
 } );
 </script>
 
-# CTFs we have participated in
 
 <table class="display" id="table_id">
     <thead>
