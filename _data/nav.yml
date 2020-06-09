@@ -1,15 +1,15 @@
 - name: Home
-  url: /
+  link: /
   letter: a
 - name: CTFs
-  url: /ctfs
+  link: /ctfs
   letter: b
 - name: Hackathons
-  url: /hackathons
+  link: /hackathons
   letter: c
 - name: Projects
-  url: /projects
+  link: /projects
   letter: d
 - name: About
-  url: /about
+  link: /about
   letter: e

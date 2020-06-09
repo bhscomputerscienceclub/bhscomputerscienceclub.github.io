@@ -5,7 +5,6 @@
 html {
   height: 100%;
   width: 100%;
-  // background-color: green;
 }
 body {
   display:block;
@@ -16,8 +15,7 @@ body {
   font-size: 100%;
   min-height: 98% ;
 
-  background-color: $bgcolor;
-  // background-color: red;
+  background-color: $body-background-color;
   font-family: "Antic Slab", serif;
   font-weight: 400;
 }
@@ -61,4 +59,7 @@ sub {
  h1,h2,h3,h4,h5,h6{
    text-align:center;
  } 
+}
+.titleh1{
+  text-align:center;
 }
