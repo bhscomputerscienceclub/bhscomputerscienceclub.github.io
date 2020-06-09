@@ -21,3 +21,6 @@ sass:
   sass_dir: assets/_sass
 
 exclude: ["package.json", "src", "node_modules"]
+
+picture:
+  nomarkdown: false

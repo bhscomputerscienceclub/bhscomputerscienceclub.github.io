@@ -1,14 +1,12 @@
 ---
 #thing
 ---
-
-
 @import "lib/normalize";
 @import "lib/fontawesome";
 @import "lib/devicon";
+@import 'vars';
 
 @import 'base';
-@import 'vars';
 @import 'animation';
 @import 'header';
 @import 'about';

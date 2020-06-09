@@ -1,0 +1,15 @@
+- name: Home
+  link: /
+  letter: a
+- name: CTFs
+  link: /ctfs
+  letter: b
+- name: Hackathons
+  link: /hackathons
+  letter: c
+- name: Projects
+  link: /projects
+  letter: d
+- name: About
+  link: /about
+  letter: e
