@@ -2,8 +2,7 @@
 title: Beachwood High School Computer Science Club
 description: Official portfolio
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://beachwood-high-school.github.io"
-url: beachwood-high-school.github.io
+url: "https://beachwood-high-school.github.io" #for sitemap
 # User settings
 username: Beachwood High School Computer Science Club
 user_description: This site is in progress. Anything on here is not guaranteed to be accurate just yet. <br> We are Beachwood High School's only Computer Science Club.
