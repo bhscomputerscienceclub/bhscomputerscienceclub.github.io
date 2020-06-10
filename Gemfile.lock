@@ -256,6 +256,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-sitemap
   jekyll_picture_tag
 
 BUNDLED WITH

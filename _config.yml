@@ -2,7 +2,7 @@
 title: Beachwood High School Computer Science Club
 description: Official portfolio
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://beachwood-high-school.github.io"
 url: beachwood-high-school.github.io
 # User settings
 username: Beachwood High School Computer Science Club
@@ -30,3 +30,6 @@ exclude: ["package.json", "src", "node_modules", "vendor/bundle"]
 ##development options
 host: 192.168.0.199 #make it your own ip address to be able to test from mobile devices in the LAN
 livereload: true
+
+plugins:
+  - jekyll-sitemap
