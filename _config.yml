@@ -25,3 +25,8 @@ exclude: ["package.json", "src", "node_modules"]
 picture:
   nomarkdown: false
 exclude: ["package.json", "src", "node_modules", "vendor/bundle"]
+
+
+##development options
+host: 192.168.0.199 #make it your own ip address to be able to test from mobile devices in the LAN
+livereload: true
