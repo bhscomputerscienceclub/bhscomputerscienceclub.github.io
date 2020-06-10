@@ -2,14 +2,14 @@
   link: /
   letter: a
 - name: CTFs
-  link: /ctfs
+  link: /ctfs/
   letter: b
 - name: Hackathons
-  link: /hackathons
+  link: /hackathons/
   letter: c
 - name: Projects
-  link: /projects
+  link: /projects/
   letter: d
 - name: About
-  link: /about
+  link: /about/
   letter: e
