@@ -1,18 +1,46 @@
 ---
-layout: default
+layout: tablepage
 permalink: /hackathons/
 title: Hackathons we have participated in
 
 ---
 
 
-   <ol>
-      {% for item in site.data.hackathon %}
-      <li>
-        {{ item.name }}{% if item.rank %} - Rank {{item.rank}}  - Percentile {{ item.rank | times:100 | divided_by: item.total }}% {% else %} - did not win{% endif %} - Our project <a href="{{item.projecturl}}">{{ item.projectname }}</a> - Location: {{item.location}}
-      </li>
-      {% endfor %}
-    </ol>
+<table class="display" id="table_id">
+    <thead>
+        <tr>
+            <th>CTF Name</th>
+            <th>Rank</th>
+            <th>Project</th>
+            <th>Year</th>
 
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in site.data.hackathon limit: 1000 %}
+            {% capture projectname %}
+                {% if item.projecturl != false %}
+                    <a href="{{item.projecturl}}">{{ item.projectname }}</a>
+                {% else %}
+                    {{item.projectname}}
+                {% endif %}
+            {% endcapture %}
 
-this page will look better soon
+            {%capture rank%}
+                {% if item.rank %}
+                    {{item.rank}}
+                {% else %}
+                    Did not win
+                {% endif %}
+                {%endcapture%}
+
+                <tr>
+                    <td>{{ item.name }}</td>
+                    <td>{{rank}}</td>
+                    <td>{{projectname}}</td>
+                    <td data-order="{{item.endtime}}">{{ item.endtime | divided_by: 31556926 | plus: 1970 }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+</table>
+
