@@ -1,17 +1,8 @@
 ---
-layout: default
+layout: tablepage
 permalink: /ctfs/
 title: CTFs we have participated in
 ---
-
-<link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css" rel="stylesheet" type="text/css">
-
-<script charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js" type="text/javascript"></script>
-<script>
-    $(document).ready( function () {
-    $('#table_id').DataTable();
-} );
-</script>
 
 
 <table class="display" id="table_id">
@@ -21,6 +12,8 @@ title: CTFs we have participated in
             <th>Rank</th>
             <th>Percentile</th>
             <th>Team Name</th>
+            <th>Year</th>
+            <th>Points</th>
         </tr>
     </thead>
     <tbody>
@@ -33,13 +26,14 @@ title: CTFs we have participated in
                         {{item.teamname}})
                     {% endif %}
                 {% endcapture %}
-
                 <td>{{ item.name }}</td>
                 <td>{{item.rank}}</td>
                 <td>
                     {{ item.rank|minus: 1 | times:-100 | divided_by: item.total | plus: 100}}%
                 </td>
                 <td>{{item.teamname}}</td>
+                <td data-order="{{item.endtime}}">{{ item.endtime | divided_by: 31556926 | plus: 1970 }}</td>
+                <td data-order="{{item.points|times:1.0|divided_by:item.totalpoints}}" >{{item.points}}/{{item.totalpoints}}</td>
             </tr>
         {% endfor %}
 

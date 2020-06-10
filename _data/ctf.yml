@@ -1,41 +1,55 @@
+#Name = name of ctf including the work CTF depending on the situation
+#Rank = Rank
+#total = total number of teams
+#endtime in unix time #https://www.epochconverter.com/
+#totalpoints refers to the points the first place team had
+
 - name: "HSCTF"
   rank: 98
   total: 1466
-  yearend: 2020
   teamname: "BisonHackers"
+  endtime: 1591401600
+  points: 4564
+  totalpoints: 16370
 - name: "HSCTF"
   rank: 204
   total: 1466
-  yearend: 2020
+  endtime: 1591401600
   teamname: "Yes no maybe"
+  points: 2552
+  totalpoints: 16370
 - name: "Pekoe CTF"
   rank: 1
   total: 40
-  yearend: 2020
+  endtime: 1591200000
   teamname: "BisonHackers"
+  points: 11051
+  totalpoints: 11051
 - name: "Pekoe CTF"
   rank: 2
   total: 40
-  yearend: 2020
+  endtime: 1591200000
   teamname: "TheManTheMythTheLegendScottSterling"
+  points: 11051
+  totalpoints: 11051
 - name: "PicoCTF"
   rank: 121
   total: 5141
-  yearend: 2019
+  endtime: 1570809600
   teamname: "Obamas-Revenge"
   points: 14650
   totalpoints: 34201
 - name: "PicoCTF"
   rank: 132
   total: 5141
-  yearend: 2019
+  endtime: 1570809600
   teamname: "BisonTeam1"
   points: 14150
   totalpoints: 34201
 - name: "PicoCTF"
   rank: 2391
   total: 5141
-  yearend: 2019
+  endtime: 1570809600
   teamname: "tonysrithai (lol why's this the name)"
   points: 850
   totalpoints: 34201
