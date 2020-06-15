@@ -1,9 +1,27 @@
 #Name = name of ctf including the work CTF depending on the situation
 #Rank = Rank
-#total = total number of teams
+#total = total number of teams that had more than 0 points
 #endtime in unix time #https://www.epochconverter.com/
 #totalpoints refers to the points the first place team had
+#create multiple blocks if multiple teams participated
 
+### example start
+# - name: "Example CTF"
+#   rank: 2
+#   total: 500
+#   teamname: "Name of the team as given to the competition"
+#   endtime: 1591401600 #when did the ctf end in unix time
+#   points: 4564 #how many points did you get
+#   totalpoints: 16370 #how many points did the first place team have
+###example end
+
+- name: "Nahamcon CTF"
+  rank: 99
+  total: 2854
+  teamname: "BisonHackers"
+  endtime: 1592085600
+  points: 2720
+  totalpoints: 7190
 - name: "HSCTF"
   rank: 98
   total: 1466
