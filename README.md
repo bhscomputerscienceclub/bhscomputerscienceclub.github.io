@@ -46,6 +46,6 @@ Fork, do the above steps, create a pull request. (If you're not a member of BHSC
 
 1. Go to pages/projects
    - To create new page copy projtemplate.md
-   - To edit an existing page make sure you have permission and the edit the markdown.
+   - To edit an existing page make sure you have permission and then edit the markdown.
 
 ### Writeups coming soon
