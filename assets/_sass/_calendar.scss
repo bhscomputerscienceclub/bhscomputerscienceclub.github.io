@@ -1,0 +1,19 @@
+.iframe-resp-container {
+  height: 500px;
+
+  iframe {
+    border: solid 1px #777;
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (max-width: 600px) {
+    .desktop {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .mobile {
+      display: none;
+    }
+  }
+}

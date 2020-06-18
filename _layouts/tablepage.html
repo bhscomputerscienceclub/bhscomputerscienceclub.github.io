@@ -2,23 +2,54 @@
 layout: default
 ---
 
-<link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+<link
+  href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
+  rel="stylesheet"
+  type="text/css"
+/>
 
-<script charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<script
+  charset="utf8"
+  src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"
+  type="text/javascript"
+></script>
 
+<link
+  href="https://cdn.datatables.net/responsive/2.2.5/css/responsive.dataTables.min.css"
+  rel="stylesheet"
+  type="text/css"
+/>
 
-<link href="https://cdn.datatables.net/responsive/2.2.5/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css">
-
-<script charset="utf8" src="https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js" type="text/javascript"></script>
-
+<script
+  charset="utf8"
+  src="https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js"
+  type="text/javascript"
+></script>
 
 <script>
-    $(document).ready( function () {
-    $('#table_id').DataTable(
-        {
-            responsive: true
-        });
-} );
+  $(document).ready(function () {
+    $("#table_id").DataTable({
+      responsive: true,
+    });
+  });
 </script>
 
 {{ content }}
+
+<script>
+$(window).on("resize load", function () {
+    if ($(".sidebar").width() / $(".sidebar").parent().width() == 1) {
+      if ($(".iframe-resp-container").find(".mobile").length === 0) {
+        $(".iframe-resp-container").append(
+          '<iframe class="mobile" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=YmVhY2h3b29kc2Nob29scy5vcmdfbWxvN2s0ZmFva2UwZnEzbWo0dWYxMDJqNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F09300&amp;mode=AGENDA&amp;showCalendars=0&amp;showPrint=0&amp;showDate=1&amp;showTitle=0" frameborder="0" scrolling="no"  ></iframe>'
+        );
+      }
+    } else {
+      if ($(".iframe-resp-container").find(".desktop").length === 0) {
+        $(".iframe-resp-container").append(
+          '<iframe class="desktop"  src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=YmVhY2h3b29kc2Nob29scy5vcmdfbWxvN2s0ZmFva2UwZnEzbWo0dWYxMDJqNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F09300&amp;showDate=1&amp;title=CTFs%20for%20High%20School%20Students" frameborder="0" scrolling="no"   ></iframe>'
+        );
+      }
+    }
+  });
+</script>
