@@ -45,9 +45,4 @@ title: CTFs we have participated in
 
 <div class="iframe-resp-container">
 
-
-
-
-
-
 </div>
