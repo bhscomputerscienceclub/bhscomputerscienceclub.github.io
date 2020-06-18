@@ -41,7 +41,7 @@ title: CTFs we have participated in
 </table>
 
 # Our CTF Calendar
-<br>will be 8x6
+<br>
 
 <div class="iframe-resp-container">
 
