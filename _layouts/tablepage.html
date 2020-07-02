@@ -28,8 +28,9 @@ layout: default
 
 <script>
   $(document).ready(function () {
-    var table = $("#table_id").DataTable({
-      responsive:true
+    $("#table_id").DataTable({
+      responsive: true,
+       "order": [[ 4, "desc" ]],
     });
   });
 </script>
