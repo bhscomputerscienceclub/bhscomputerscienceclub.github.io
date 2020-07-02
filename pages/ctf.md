@@ -14,6 +14,7 @@ title: CTFs we have participated in
             <th>Team Name</th>
             <th>Year</th>
             <th>Points</th>
+            <th>High School Only</th>
         </tr>
     </thead>
     <tbody>
@@ -34,6 +35,7 @@ title: CTFs we have participated in
                 <td>{{item.teamname}}</td>
                 <td data-order="{{item.endtime}}">{{ item.endtime | divided_by: 31556926 | plus: 1970 }}</td>
                 <td data-order="{{item.points|times:1.0|divided_by:item.totalpoints}}" >{{item.points}}/{{item.totalpoints}}</td>
+                <td>{% if item.high_school%}True{%else %}False{%endif%}</td>
             </tr>
         {% endfor %}
 
