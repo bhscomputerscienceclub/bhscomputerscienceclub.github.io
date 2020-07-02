@@ -202,7 +202,7 @@ main {
     display: inline;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $cut) {
   .sidebar {
     display: inline-flex;
     align-items: center;
@@ -212,10 +212,10 @@ main {
     }
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $cut) {
   .sidebar {
     height: 98%; /* Full-height: remove this if you want "auto" height */
-    min-width: fit-content;
+    min-width: 222px;
     max-width: $sidebar-width;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
@@ -230,8 +230,5 @@ main {
     margin: 1vmax;
     min-height: 96vh;
 
-    margin-right: calc(
-      #{$sidebar-width} + 20px
-    ); /* Same as the width of the sidebar */
   }
 }

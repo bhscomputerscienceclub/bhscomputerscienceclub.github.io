@@ -28,28 +28,15 @@ layout: default
 
 <script>
   $(document).ready(function () {
-    $("#table_id").DataTable({
-      responsive: true,
+    var table = $("#table_id").DataTable({
+      responsive:true
     });
   });
 </script>
 
 {{ content }}
 
+
 <script>
-  $(window).on("resize load", function () {
-    if ($(".sidebar").width() / $(".sidebar").parent().width() == 1) {
-      if ($(".iframe-resp-container").find(".mobile").length === 0) {
-        $(".iframe-resp-container").append(
-          '<span class="mobile"> <p > In case you\'re on a touchscreen device I know scrolling on mobile here is difficult and I\'ll try to fix it in a bit</p><iframe  src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=YmVhY2h3b29kc2Nob29scy5vcmdfbWxvN2s0ZmFva2UwZnEzbWo0dWYxMDJqNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F09300&amp;mode=AGENDA&amp;showCalendars=0&amp;showPrint=0&amp;showDate=1&amp;showTitle=0" frameborder="0" scrolling="no"  ></iframe></span>'
-        );
-      }
-    } else {
-      if ($(".iframe-resp-container").find(".desktop").length === 0) {
-        $(".iframe-resp-container").append(
-          '<iframe class="desktop"  src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=YmVhY2h3b29kc2Nob29scy5vcmdfbWxvN2s0ZmFva2UwZnEzbWo0dWYxMDJqNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F09300&amp;showDate=1&amp;title=CTFs%20for%20High%20School%20Students" frameborder="0" scrolling="no"   ></iframe>'
-        );
-      }
-    }
-  });
+
 </script>

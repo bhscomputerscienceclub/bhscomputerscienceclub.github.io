@@ -43,6 +43,4 @@ title: CTFs we have participated in
 # Our CTF Calendar
 <br>
 
-<div class="iframe-resp-container">
-
-</div>
+{% include calendar/ctf.html %}
