@@ -14,6 +14,15 @@
 #   points: 4564 #how many points did you get
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
+- name: "rgbCTF"
+  rank: 75
+  total: 1047
+  teamname: "BisonHackers"
+  endtime: 1594659600
+  points: 4301
+  totalpoints: 18954
+  high_school: False
+ 
 - name: "redpwnCTF"
   rank: 18
   total: 142
