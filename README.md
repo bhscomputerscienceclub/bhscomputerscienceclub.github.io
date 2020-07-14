@@ -49,4 +49,3 @@ Fork, do the above steps, create a pull request. (If you're not a member of BHSC
    - To edit an existing page make sure you have permission and then edit the markdown.
 
 ### Writeups coming soon
-
