@@ -9,7 +9,7 @@ title: Hackathons we have participated in
 <table class="display" id="table_id">
     <thead>
         <tr>
-            <th>CTF Name</th>
+            <th>Name</th>
             <th>Rank</th>
             <th>Project</th>
             <th>Year</th>
