@@ -9,9 +9,10 @@ title: Hackathons we have participated in
 <table class="display" id="table_id">
     <thead>
         <tr>
-            <th>Name</th>
+            <th>Hackathon Name</th>
             <th>Rank</th>
             <th>Project</th>
+            <th>Audience</th>
             <th>Year</th>
 
         </tr>
@@ -38,6 +39,22 @@ title: Hackathons we have participated in
                     <td>{{ item.name }}</td>
                     <td>{{rank}}</td>
                     <td>{{projectname}}</td>
+                   
+                    <td>
+                        {% if item.audience.any %}
+                        All 
+                        {%else%}
+                            {%if item.audience.college%}
+                            College
+                            {%endif%}
+                            {%if item.audience.high_school and item.audience.college%}
+                            and
+                            {%endif%}
+                                {%if item.audience.high_school%}
+                            High School
+                             {%endif%}
+                        {%endif%}
+                    </td> 
                     <td data-order="{{item.endtime}}">{{ item.endtime | divided_by: 31556926 | plus: 1970 }}</td>
                 </tr>
             {% endfor %}

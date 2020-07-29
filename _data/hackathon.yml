@@ -1,3 +1,5 @@
+#[any,mid_school,high_school,college]
+
 - name: "Modhacks"
   rank: false
   totalteams: 48
@@ -5,7 +7,8 @@
   projecturl: https://github.com/beachwood-high-school/modhacks-2020
   projectname: apeiron
   location: Online
-  audience: [any]
+  audience:
+    any: true
 - name: "Hyland"
   rank: false
   totalteams:
@@ -13,7 +16,9 @@
   projecturl: https://github.com/beachwood-high-school/Hyland2020
   projectname: EZWeather
   location: NE OH
-  audience: [high_school,college]
+  audience:
+    high_school: true
+    college: true
 - name: "UHacks"
   rank: false
   totalteams:
@@ -21,7 +26,8 @@
   projecturl: https://github.com/Beachwood-High-School/uhacks2019
   projectname: Credipedia
   location: NE OH
-  audience: [high_school]
+  audience:
+    high_school: true
 - name: "UHacks"
   rank: false
   totalteams:
@@ -29,4 +35,5 @@
   projecturl: false
   projectname: Automatic Scheduler
   location: NE OH
-  audience: [high_school]
+  audience:
+    high_school: true
