@@ -14,6 +14,14 @@
 #   points: 4564 #how many points did you get
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
+- name: "H@cktivityCon CTF"
+  rank: 36
+  total: 1974
+  teamname: "BisonHackers"
+  endtime: 1596222000
+  points: 3540
+  totalpoints: 8815
+  high_school: False
 
 - name: "rgbCTF"
   rank: 75
