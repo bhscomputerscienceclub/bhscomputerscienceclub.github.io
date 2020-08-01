@@ -28,7 +28,7 @@ title: CTFs we have participated in
                     {% endif %}
                 {% endcapture %}
                 <td>{{ item.name }}</td>
-                <td>{{item.rank}}</td>
+                <td data-order="{{item.rank}}">{{item.rank}}/{{item.total}}</td>
                 <td>
                     {{ item.rank|minus: 1 | times:-100 | divided_by: item.total | plus: 100}}%
                 </td>
