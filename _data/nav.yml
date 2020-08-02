@@ -10,6 +10,9 @@
 - name: Projects
   link: /projects/
   letter: d
+- name: Join
+  link: /join/
+  letter: e
 - name: About
   link: /about/
-  letter: e
+  letter: f
