@@ -4,7 +4,24 @@ description: Official portfolio
 # User settings
 username: Beachwood High School Computer Science Club
 user_description: We are Beachwood High School's Computer Science Club.
-user_title: We do computer things
+user_title: '<style>
+  /* unvisited link */
+  a:link {
+  color:inherit;
+  }
+  /* visited link */
+  a:visited {
+  color: inherit;
+  }
+  /* mouse over link */
+  a:hover {
+  color: #8ebf42;
+  }
+  /* selected link */
+  a:active {
+  color: #800000;
+  }
+  </style><a href="/join/" >Join Now!</a>'
 email: 23kmalhotra@beachwoodstudents.org
 # twitter_username: lorem_ipsum
 github_username: beachwood-high-school
