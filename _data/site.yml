@@ -6,19 +6,19 @@ username: Beachwood High School Computer Science Club
 user_description: We are Beachwood High School's Computer Science Club.
 user_title: '<style>
   /* unvisited link */
-  a:link {
+  .site-description a:link {
   color:inherit;
   }
   /* visited link */
-  a:visited {
+  .site-description a:visited {
   color: inherit;
   }
   /* mouse over link */
-  a:hover {
+  .site-description a:hover {
   color: #8ebf42;
   }
   /* selected link */
-  a:active {
+  .site-description a:active {
   color: #800000;
   }
   </style><a href="/join/" >Join Now!</a>'

@@ -1,28 +1,115 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    {% include headmetastuff.html %}
+    <link rel="stylesheet" href="/assets/css/home.css" />
 
-<head>
-  {% include headmetastuff.html %}
-  <link rel="stylesheet" href="/assets/css/home.css">
-
-  <link href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
-    rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+      rel="stylesheet"
+    />
     <script src="/assets/js/homeimp.js"></script>
+  </head>
 
-</head>
+  <body>
+    <!-- fancy header -->
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">{{ site.data.site.username }}</span>
+          <span class="site-description">{{ site.data.site.user_title }}</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="Send email" href="mailto:{{ site.data.site.email }}">
+            <i class="icon fas fa-envelope"></i>
+          </a>
+          <!--a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/mauriciourraco7"><i class="icon fa fa-instagram" aria-hidden="true"></i></a> 
+        <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/mauricio.urraco"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/murraco"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a> -->
+          <a
+            aria-label="Our Github"
+            href="https://github.com/{{ site.data.site.github_username }}"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="icon fab fa-github"></i>
+          </a>
+          <a
+            aria-label="Our Youtube"
+            href="{{site.data.site.youtubeurl}}"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="icon fab fa-youtube"></i>
+          </a>
+        </div>
+        <div class="header-links">
+          <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
+        </div>
+      </div>
 
-<body>
-  {% include fancyheader.html %}
-  <section id="about">
-    {% include about.html %}
-  </section>
-  {{ content }}
-  {% include footer.html %}
-  <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="{{ '/assets/js/home.js' }}"></script>
-  {% comment %} {% include google-analytics.html %} {% endcomment %}
+      <!-- fancy header end -->
 
-</body>
+      <a class="down" data-scroll href="#about">
+        <i aria-hidden="true" class="icon fa fa-chevron-down"></i>
+      </a>
+    </div>
 
+    <!--about section start-->
+
+    <section id="about">
+      <div class="user-details">
+        <h1>What we do</h1>
+        <p>{{ site.data.site.user_description }}</p>
+      </div>
+      <div class="activitiesBox">
+        <div class="tech">
+          <h2>Recent CTFs</h2>
+          <ol>
+            {% for item in site.data.ctf limit: 5%} {% capture teamname%} {% if
+            item.teamname %} (Team {{item.teamname}}) {% endif %} {% endcapture
+            %}
+            <li>
+              {{ item.name }}{{teamname}} - Rank {{ item.rank }} - Percentile {{
+              item.rank|minus: 1 | times:-100 | divided_by: item.total | plus:
+              100}}%
+            </li>
+            {% endfor %}
+            <li>
+              <a href="/ctfs/">See more</a>
+            </li>
+          </ol>
+        </div>
+        <div class="tech">
+          <h2>Recent Hackathons</h2>
+          <ol>
+            {% for item in site.data.hackathon limit: 5%} {% capture projectname
+            %} {% if item.projecturl != false %}
+            <a href="{{item.projecturl}}">{{ item.projectname }}</a>
+            {% else %} {{item.projectname}} {% endif %} {% endcapture %}
+            {%capture rank%} {% if item.rank %} - Rank {{item.rank}} -
+            Percentile {{ item.rank|minus: 1 | times:-100 | divided_by:
+            item.total |plus: 100 }}% {% endif %} {%endcapture%}
+            <li>
+              {{ item.name }} {{ rank }} - Our project {{projectname}}
+            </li>
+            {% endfor %}
+            <li>
+              <a href="/hackathons/">See more</a>
+            </li>
+          </ol>
+        </div>
+        <div class="tech">
+          <h2>Other Projects</h2>
+
+          <p><a href="/projects/">See more</a></p>
+        </div>
+      </div>
+    </section>
+    <!--about section end-->
+
+    {{ content }} {% include footer.html %}
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="{{ '/assets/js/home.js' }}"></script>
+    {% comment %} {% include google-analytics.html %} {% endcomment %}
+  </body>
 </html>
