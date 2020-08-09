@@ -8,10 +8,10 @@ google-analytics:
 sass:
   sass_dir: assets/_sass
 
-exclude: ["package.json", "src", "node_modules"]
-
 picture:
   nomarkdown: false
+
+
 exclude: ["package.json", "src", "node_modules", "vendor/bundle"]
 
 

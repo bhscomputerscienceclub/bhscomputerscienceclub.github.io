@@ -19,7 +19,7 @@
   //   color: #f1f1f1;
   // }
   .logoimg {
-    max-width: min(5cm, 60%);
+    max-width: Min(5cm, 60%); // M is capital because sass is weird https://css-tricks.com/when-sass-and-new-css-features-collide/
     height: auto;
     display: block;
     margin-left: auto;
