@@ -6,6 +6,9 @@ title: Join Computer Science Club!
 
 Computer Science Club (the new and improved version of Computer Security Club) is a fun but productive place where you can come to learn computer science from scratch, brush up your existing skills, or create cool projects.
 
+[Click Here](https://bit.ly/bhscsjoinform) to join 
+{: style="font-size: 190%; font-weight: bold;" }
+
 We primarily focus on:
 
 - Programming
@@ -29,7 +32,7 @@ The brand new curriculum system lets you choose what technologies/tools to learn
 
 The curriculum management system will award you with (virtual) badges once you have completed a skill or mastered (to a reasonable degree) a technology. You have full control over which skills you want to choose and which areas you want to get more involved in.
 
-If that sounds interesting to you fill out [**this form**](https://bit.ly/bhscsjoinform) and we will reach out to you soon for the first meeting!
+If that sounds interesting to you fill out [this form](https://bit.ly/bhscsjoinform) and we will reach out to you soon for the first meeting!
 
 We participate in various competitions throughout the year:
 - CTFs (competitions where you use the cybersecurity knowledge you gained in this club)(Ranked by importance):
@@ -57,7 +60,7 @@ We participate in various competitions throughout the year:
 - This club was previously disorganized and didn't pay attention to beginners. How do I know that this will be worth my time?
   - We have a brand new curriculum system in place that will help you learn all the necessary basic skills to participate in bigger projects. You can also ask any other members of the club for help at any point and everyone will be happy to help you.
 
-If that sounds interesting to you fill out [**this form**](https://bit.ly/bhscsjoinform) and we will reach out to you soon for the first meeting!
+If that sounds interesting to you fill out [this form](https://bit.ly/bhscsjoinform) and we will reach out to you soon for the first meeting!
 
 ([https://bit.ly/bhscsjoinform](https://bit.ly/bhscsjoinform)) Link to the form above
 
