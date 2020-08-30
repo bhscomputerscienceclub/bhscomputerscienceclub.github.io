@@ -14,6 +14,27 @@
 #   points: 4564 #how many points did you get
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
+
+# - name: "CyberClassCTF"
+#   rank: 2
+#   total: 42
+#   teamname: "BisonHackers"
+#   endtime: 1598994900
+#   points: 9825
+#   totalpoints: 9825
+#   high_school: False
+#   comment: "Top in HS; Won $50 amazon gift card"
+
+- name: "Cyber Tri Fecta CTF"
+  rank: 29
+  total: 84
+  teamname: "BisonHackers"
+  endtime: 1597419000
+  points: 650
+  totalpoints: 6550
+  high_school: False
+  comment: "real-world-like Windows security"
+
 - name: "H@cktivityCon CTF"
   rank: 36
   total: 1974
