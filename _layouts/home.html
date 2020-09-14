@@ -65,11 +65,17 @@
         <div class="tech">
           <h2>Recent CTFs</h2>
           <ol>
-            {% for item in site.data.ctf limit: 5%} {% capture teamname%} {% if
+            {% for item in site.data.ctf limit: 5%} 
+            {% capture teamname%} {% if
             item.teamname %} (Team {{item.teamname}}) {% endif %} {% endcapture
             %}
+            {% capture hs%} 
+            {% if
+              item.high_school %}
+               (HS Only) {% endif %} {% endcapture
+              %}
             <li>
-              {{ item.name }}{{teamname}} - Rank {{ item.rank }} - Percentile {{
+              {{ item.name }}{{hs}} - Rank {{ item.rank }} - Percentile {{
               item.rank|minus: 1 | times:-100 | divided_by: item.total | plus:
               100}}%
             </li>
