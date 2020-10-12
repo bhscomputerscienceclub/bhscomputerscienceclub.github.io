@@ -15,6 +15,16 @@
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
 
+- name: "CSAW Red Quals"
+  rank: 15
+  total: 200
+  teamname: "BisonHackers"
+  endtime: 1601236800
+  points: 3000
+  totalpoints: 4000
+  high_school: True
+  comment: "Unsure of details due to missing info - 12th in US only + Qualified for finals"
+
 - name: "CSAW CTF Quals"
   rank: 8
   total: 61
