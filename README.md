@@ -1,6 +1,6 @@
 # Jekyll Resume Theme
 
-Official website for Beachwood High School Computer Science Club
+Official website for Beachwood High School Computer Science Club.
 
 # Stack
 
