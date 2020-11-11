@@ -15,6 +15,46 @@
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
 
+- name: "CSAW Red Finals"
+  rank: 9
+  total: 18
+  teamname: "BisonHackers"
+  endtime: 1604793600
+  points: 451
+  totalpoints: 2301
+  high_school: True
+  comment: "Also 9th US Only; $24k Scholarship to NYU each"
+
+- name: "Newark Academy (NACTF)"
+  total: 968
+  endtime: 1604527200
+  totalpoints: 12226
+  high_school: False
+  rank: 56
+  teamname: "TheManTheMythTheLegendScottSterling"
+  points: 4776
+  comment: "9th in high school; Won $25"
+
+- name: "Newark Academy (NACTF)"
+  total: 968
+  endtime: 1604527200
+  totalpoints: 12226
+  high_school: False
+  rank: 198
+  teamname: "FireBreathingBison"
+  points: 2451
+  comment: ""
+
+- name: "Newark Academy (NACTF)"
+  total: 968
+  endtime: 1604527200
+  totalpoints: 12226
+  high_school: False
+  rank: 314
+  teamname: "Untitled"
+  points: 1825
+  comment: ""
+
 - name: "Hacktober CTF"
   rank: 104
   total: 1062
