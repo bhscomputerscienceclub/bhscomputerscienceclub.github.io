@@ -15,6 +15,15 @@
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
 
+- name: "justCTF"
+  rank: 423
+  total: 804
+  teamname: "BisonHackers"
+  endtime: 1612119600
+  points: 50
+  totalpoints: 4078
+  high_school: False
+
 - name: "CSAW Red Finals"
   rank: 9
   total: 18

@@ -14,6 +14,7 @@ title: Hackathons we have participated in
             <th>Project</th>
             <th>Audience</th>
             <th>Year</th>
+            <th>Comment</th>
 
         </tr>
     </thead>
@@ -56,6 +57,8 @@ title: Hackathons we have participated in
                         {%endif%}
                     </td> 
                     <td data-order="{{item.endtime}}">{{ item.endtime | divided_by: 31556926 | plus: 1970 }}</td>
+                    <td>{{item.comment}}</td>
+
                 </tr>
             {% endfor %}
         </tbody>

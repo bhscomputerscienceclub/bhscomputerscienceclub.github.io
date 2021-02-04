@@ -1,10 +1,37 @@
 #[any,mid_school,high_school,college]
-
+- name: "WWPHacks"
+  rank: 15
+  totalteams: 65
+  endtime: 1606089600
+  projecturl: https://github.com/bhscomputerscienceclub/wwphacks-2020-watt
+  projectname: Wildfire Calculator
+  location: Online
+  comment: Top 15. Unspecified rank
+  audience:
+    high_school: true
+- name: "WWPHacks"
+  rank: false
+  totalteams: 65
+  endtime: 1606089600
+  projecturl: https://github.com/bhscomputerscienceclub/wwphacks-2020-ohm
+  projectname: Apoleia Noise Tracker
+  location: Online
+  audience:
+    high_school: true
+- name: "WWPHacks"
+  rank: false
+  totalteams: 65
+  endtime: 1606089600
+  projecturl: https://github.com/bhscomputerscienceclub/wwphacks-2020-volt
+  projectname: Fresh - Music Recommendations
+  location: Online
+  audience:
+    high_school: true
 - name: "Modhacks"
   rank: false
   totalteams: 48
   endtime: 1595806200
-  projecturl: https://github.com/beachwood-high-school/modhacks-2020
+  projecturl: https://github.com/bhscomputerscienceclub/modhacks-2020
   projectname: apeiron
   location: Online
   audience:
@@ -13,7 +40,7 @@
   rank: false
   totalteams:
   endtime: 1578240000
-  projecturl: https://github.com/beachwood-high-school/Hyland2020
+  projecturl: https://github.com/bhscomputerscienceclub/Hyland2020
   projectname: EZWeather
   location: NE OH
   audience:
@@ -23,7 +50,7 @@
   rank: false
   totalteams:
   endtime: 1573956000
-  projecturl: https://github.com/Beachwood-High-School/uhacks2019
+  projecturl: https://github.com/bhscomputerscienceclub/uhacks2019
   projectname: Credipedia
   location: NE OH
   audience:

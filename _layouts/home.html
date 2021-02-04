@@ -94,7 +94,7 @@
             {% else %} {{item.projectname}} {% endif %} {% endcapture %}
             {%capture rank%} {% if item.rank %} - Rank {{item.rank}} -
             Percentile {{ item.rank|minus: 1 | times:-100 | divided_by:
-            item.total |plus: 100 }}% {% endif %} {%endcapture%}
+            item.totalteams |plus: 100 }}% {% endif %} {%endcapture%}
             <li>
               {{ item.name }} {{ rank }} - Our project {{projectname}}
             </li>
