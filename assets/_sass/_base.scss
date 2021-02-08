@@ -20,6 +20,22 @@ body {
   font-weight: 400;
 }
 
+//anchor symbols and stuff
+h1 .octicon, h2 .octicon, h3 .octicon, h4 .octicon, h5 .octicon, h6 .octicon  {
+  visibility: hidden;
+}
+
+h1:hover .octicon, h2:hover .octicon, h3:hover .octicon, h4:hover .octicon, h5:hover .octicon, h6:hover .octicon {
+  visibility: visible;
+}
+
+.octicon {
+  fill: currentColor;
+  padding: 0;
+  margin-right: -16px;
+  vertical-align: middle;
+}
+
 h1,
 h2,
 h3,
@@ -30,17 +46,25 @@ strong {
   padding-top: 0.25em;
   line-height: 1.25;
   color: #333;
+
+  padding-right: 10px;// for anchor icon
+
 }
+
 h1 {
+  margin-right: -20px; // anchor icon
   font-size: 2.5rem;
 }
 h2 {
+  margin-right: -18px; // anchor icon
   font-size: 2rem;
 }
 h3 {
+  margin-right: -16px; // anchor icon
   font-size: 1.5rem;
 }
 h4 {
+  margin-right: -14px; // anchor icon
   font-size: 1rem;
 }
 ul,
