@@ -1,6 +1,7 @@
 
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://beachwood-high-school.github.io" #for sitemap
+url: "https://bhscs.club" #for sitemap
+git_baseurl: "https://github.com/bhscomputerscienceclub"
 
 # Google-analytics
 google-analytics:
