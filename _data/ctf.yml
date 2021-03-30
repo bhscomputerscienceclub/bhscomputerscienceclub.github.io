@@ -14,7 +14,42 @@
 #   points: 4564 #how many points did you get
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
-
+- name: "PicoCTF"
+  rank: 13
+  total: 2280
+  teamname: "BisonHackers"
+  endtime: 1617130800
+  points: 7725
+  totalpoints: 11750
+  high_school: True
+  
+- name: "PicoCTF"
+  rank: 34
+  total: 6215
+  teamname: "BisonHackers"
+  endtime: 1617130800
+  points: 7725
+  totalpoints: 11750
+  high_school: False
+  
+- name: "PicoCTF"
+  rank: 366
+  total: 2280
+  teamname: "team-what-watt"
+  endtime: 1617130800
+  points: 290
+  totalpoints: 11750
+  high_school: True
+  
+- name: "PicoCTF"
+  rank: 1879
+  total: 6215
+  teamname: "team-what-watt"
+  endtime: 1617130800
+  points: 290
+  totalpoints: 11750
+  high_school: False
+  
 - name: "justCTF"
   rank: 423
   total: 804
