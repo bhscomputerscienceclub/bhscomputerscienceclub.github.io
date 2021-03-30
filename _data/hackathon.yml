@@ -1,4 +1,22 @@
 #[any,mid_school,high_school,college]
+- name: "Hyland"
+  rank: false
+  totalteams: 12
+  endtime: 1615737600
+  projecturl: https://github.com/bhscomputerscienceclub/Hyland-2021-Volt
+  projectname: EcoGo
+  location: Online
+  audience:
+    high_school: true
+- name: "Hyland"
+  rank: false
+  totalteams: 12
+  endtime: 1615737600
+  projecturl: https://github.com/bhscomputerscienceclub/hyland-2021-watt
+  projectname: SuperShopper
+  location: Online
+  audience:
+    high_school: true
 - name: "WWPHacks"
   rank: 15
   totalteams: 65
