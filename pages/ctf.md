@@ -27,7 +27,7 @@ title: CTFs we have participated in
                 <td>{{ item.name }}</td>
                 <td data-order="{{item.rank}}">{{item.rank}}/{{item.total}}</td>
                 <td>
-                    {{ item.rank|minus: 1 | times:-100 | divided_by: item.total | plus: 100}}%
+                    {{ item.rank|minus: 1 | times:-1000 | divided_by: item.total | divided_by: 10.0 | plus: 100}}%
                 </td>
                 <td>
                     {% if item.high_school%}High School Only{%else %}Not High School Only{%endif%}</td>
