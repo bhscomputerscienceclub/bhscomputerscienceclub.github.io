@@ -14,6 +14,67 @@
 #   points: 4564 #how many points did you get
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
+
+- name: "HSCTF"
+  rank: 20
+  total: 78
+  teamname: "BisonHackers"
+  endtime: 1624104000
+  points: 8017
+  totalpoints: 17969
+  high_school: True
+- name: "HSCTF"
+  rank: 110
+  total: 1165
+  teamname: "BisonHackers"
+  endtime: 1624104000
+  points: 8017
+  totalpoints: 17982
+  high_school: False
+
+- name: "BCACTF"
+  rank: 21
+  total: 841
+  teamname: "BisonHackers"
+  endtime: 1623628800
+  points: 2625
+  totalpoints: 12675
+  high_school: True
+- name: "BCACTF"
+  rank: 125
+  total: 841
+  teamname: "BisonHackers"
+  endtime: 1623628800
+  points: 2625
+  totalpoints: 12675
+  high_school: False
+  
+- name: "Zh3r0"
+  rank: 155
+  total: 509
+  teamname: "BisonHackers"
+  endtime: 1623018600
+  points: 201
+  totalpoints: 17341
+  high_school: False
+  
+- name: "angstromCTF"
+  rank: 79
+  total: 413
+  teamname: "BisonHackers"
+  endtime: 1617825600
+  points: 485
+  totalpoints: 5595
+  high_school: True
+- name: "angstromCTF"
+  rank: 428
+  total: 1245
+  teamname: "BisonHackers"
+  endtime: 1617825600
+  points: 485
+  totalpoints: 6345
+  high_school: False
+  
 - name: "PicoCTF"
   rank: 13
   total: 2280
