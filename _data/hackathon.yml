@@ -1,4 +1,24 @@
 #[any,mid_school,high_school,college]
+- name: "Hack-cade"
+  rank: false
+  totalteams: 81
+  endtime: 1622382300
+  projecturl: https://github.com/bhscomputerscienceclub/hack-cade-2021-ohm
+  projectname: Snake V2.0
+  location: Online
+  audience:
+    any: true
+- name: "Hack-cade"
+  rank: false
+  totalteams: 81
+  endtime: 1622382300
+  projecturl: https://github.com/bhscomputerscienceclub/hack-cade-2021-volt
+  projectname: Pacman PvP
+  location: Online
+  comment: Best use of Linode Cloud. Raspberry Pi starter kits
+  audience:
+    any: true
+    
 - name: "Hyland"
   rank: false
   totalteams: 12
