@@ -9,13 +9,13 @@
   audience:
     any: true
 - name: "Hack-cade"
-  rank: false
+  rank: Best use of Linode Cloud
   totalteams: 81
   endtime: 1622382300
   projecturl: https://github.com/bhscomputerscienceclub/hack-cade-2021-volt
   projectname: Pacman PvP
   location: Online
-  comment: Best use of Linode Cloud. Raspberry Pi starter kits
+  comment: Won Raspberry Pi starter kits
   audience:
     any: true
     
