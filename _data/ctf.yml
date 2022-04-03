@@ -15,6 +15,15 @@
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
 
+- name: "picoCTF"
+  rank: 27
+  total: 1329
+  teamname: "BisonHackers"
+  endtime: 1648612799
+  points: 13100
+  totalpoints: 14600
+  high_school: True
+ 
 - name: "HSCTF"
   rank: 20
   total: 78
