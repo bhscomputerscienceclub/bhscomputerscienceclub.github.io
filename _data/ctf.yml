@@ -15,6 +15,7 @@
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
 
+
 - name: "picoCTF"
   rank: 27
   total: 1329
