@@ -15,7 +15,42 @@
 #   totalpoints: 16370 #how many points did the first place team have
 ###example end
 
+- name: "UIUCTF"
+  rank: 72
+  total: 395 #????????????????????? dunno forgot
+  teamname: "BisonHackers"
+  endtime: 1659312000
+  points: 775
+  totalpoints: 9765
+  high_school: False
+  
+- name: "BCACTF"
+  rank: 4
+  total: 225 #????????????????????? dunno forgot
+  teamname: "spyglassVenture"
+  endtime: 1654560000
+  points: 6575
+  totalpoints: 9175
+  high_school: True
+  comment: "Won $75 (+$250 credits)"
+ 
+- name: "BCACTF"
+  rank: 7
+  total: 559
+  teamname: "spyglassVenture"
+  endtime: 1654560000
+  points: 6575
+  totalpoints: 9175
+  high_school: False
 
+- name: "picoCTF"
+  rank: 146
+  total: 7794
+  teamname: "BisonHackers"
+  endtime: 1648612799
+  points: 13100
+  totalpoints: 14600
+  high_school: False
 - name: "picoCTF"
   rank: 27
   total: 1329
