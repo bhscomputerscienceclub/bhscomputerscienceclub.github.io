@@ -6,7 +6,7 @@ title: Hackathons we have participated in
 ---
 
 
-<table class="display" id="table_id">
+<table class="display" id="table_id" data-page-length='25'>
     <thead>
         <tr>
             <th>Hackathon Name</th>
